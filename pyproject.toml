@@ -1,0 +1,17 @@
+[project]
+name = "kaggle-airlane-satisfaction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "bryjna07", email = "bryjna07@nate.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+kaggle-airlane-satisfaction = "kaggle_airlane_satisfaction:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
