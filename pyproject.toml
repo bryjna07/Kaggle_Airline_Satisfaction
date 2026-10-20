@@ -1,5 +1,5 @@
 [project]
-name = "kaggle-airlane-satisfaction"
+name = "kaggle-airline-satisfaction"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,10 +7,17 @@ authors = [
     { name = "bryjna07", email = "bryjna07@nate.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.4.0",
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+]
 
 [project.scripts]
-kaggle-airlane-satisfaction = "kaggle_airlane_satisfaction:main"
+kaggle-airline-satisfaction = "kaggle_airline_satisfaction:main"
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]

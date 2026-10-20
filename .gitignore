@@ -8,4 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+data/
+*.csv
+.ipynb_checkpoints/
+.DS_Store
 .env
+kaggle.json
