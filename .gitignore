@@ -14,3 +14,5 @@ data/
 .DS_Store
 .env
 kaggle.json
+python_syntax_notes.md
+devlog.md
