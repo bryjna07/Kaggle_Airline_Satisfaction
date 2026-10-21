@@ -3,6 +3,7 @@
 승객 정보와 기내 서비스 평점으로 항공사 만족 여부를 예측하는 이진 분류 문제입니다. 평가 지표는 ROC-AUC입니다.
 
 - 대회: https://www.kaggle.com/competitions/playground-series-s6e10
+- 블로그: https://yjuni22.tistory.com/93
 
 ## 결과
 
