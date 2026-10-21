@@ -433,7 +433,7 @@ wheels = [
 [[package]]
 name = "kaggle-airline-satisfaction"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "ipykernel" },
     { name = "lightgbm" },
